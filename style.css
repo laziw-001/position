@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Irish+Grover&family=Nosifer&family=Prociono&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+   font-family: "Inter", serif
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 100px;
+}
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    background-color: black;
+    padding: 30px 0;
+}
+.header-parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 130px;
+    font-weight: 700;
+}
+.header-right a {
+    text-decoration: none;
+    text-shadow: 0px 4px 7.4px #FFFFFF;
+    color: white;
+}
+
+
+main {
+    margin-top: 120px;
+}
+.position {
+    background-image: url(./Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+}
+.position-parent {
+    display: flex;
+    justify-content: space-between;
+}
+.relative {
+    position: relative;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    top: 200px;
+    width: 230px;
+    height: 205px;
+    background-color: #32FB00;
+}
+.relative .relative-text {
+    margin-bottom: 40px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #FF0606;
+    text-shadow: 0px 4px 7.4px  #FFFFFF;
+}
+.relative .absolute-text {
+    font-size: 24px;
+    font-weight: 700;
+    color:white;
+    text-shadow: 0px 4px 7.4px #FFFFFF;
+}
+.absolute1 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -100px;
+    right: -100px;
+    width: 230px;
+    height: 205px;
+    background-color: #FF0606;
+}
+.absolute2 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -100px;
+    width: 400px;
+    height: 205px;
+    border-radius: 100px;
+    background-color: #FF0606;
+}
+.absolute3 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -100px;
+    left: -100px;
+    width: 230px;
+    height: 205px;
+    background-color: #FF0606;
+}
+
+
+.information {
+    background-color: black;
+    color: white;
+    padding-top: 70px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    font-size: 60px;
+    background-color: white;
+    color: black;
+    width: 600px;
+    height: 75px;
+    border-radius: 30px;
+    box-shadow: 16px 18px 28px 0px #FFFFFF40;
+}
+.info-parent {
+    display: flex;
+    margin-top: 125px;
+    padding-bottom: 50px;
+    gap: 80px;
+}
+h2 {
+    font-size: 32px;
+    text-shadow: 0px 4px 7.4px  #FFFFFF;
+}
+.static {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 700;
+    background-color: #7B2525;
+    width: 350px;
+    height: 330px;
+}
+.relative-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    position: relative;
+    background-color: #7B2525;
+    width: 350px;
+    height: 330px;
+}
+.absolute-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 25px;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    position: relative;
+    background-color: #7B2525;
+    width: 350px;
+    height: 330px;
+}
+
+footer {    
+    background-color: black;
+    padding: 30px 0;
+}
+.footer-parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 130px;
+    font-weight: 700;
+}
+.footer-right a {
+    text-decoration: none;
+    text-shadow: 0px 4px 7.4px #FFFFFF;
+    color: white;
+}
+a:hover {
+    transform: scale(1.07);
+    color: rgb(121, 121, 255);
+}
